@@ -6,7 +6,7 @@ def square_array(array)
   # your code here
   square_numbers = Array.new
   array.each do | n |
-    square_numbers.unshift(n**2)
+    square_numbers << n**2
   end
   binding.pry
 end
