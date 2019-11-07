@@ -1,3 +1,5 @@
+require 'pry'
+
 test_num = [2, 25, 12, 7]
 
 def square_array(array)
