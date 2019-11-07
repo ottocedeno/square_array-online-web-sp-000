@@ -8,7 +8,7 @@ def square_array(array)
   array.each do | n |
     square_numbers << n**2
   end
-  binding.pry
+  return square_numbers
 end
 
 
